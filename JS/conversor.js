@@ -1,3 +1,9 @@
+const simuladorBtn = document.getElementById("Inicio");
+
+simuladorBtn.addEventListener("click", function() {
+
+
+
 // Ingresa las horas
 alert("Presione OK e ingrese horas (numero entero entre 0 y 24), minutos (numero entero entre 0 y 60) y segundos (numero entero entre 0 y 60)")
 
@@ -108,7 +114,9 @@ while(encuesta!== 'S' && encuesta!=='N'){
     encuesta = prompt("Le gustó la aplicación(S/N?");
 }
 if(encuesta==='S'){
-    alert("Que alegría");
+    alert("Gracias por darnos su opinion");
 } else if(encuesta==='N'){
     alert("Intentaremos mejorar para la próxima aplicación")
 }
+
+});
