@@ -99,7 +99,7 @@ function convierte(h,m,s) {
 let totalSegundos = convierte(horas, minutos, segundos);
 
 // Muestra los datos ingresados y el resultado
-alert (horas +"horas, "+ minutos+ " minutos,"+segundos+" segundos   =   "+horas+" horas x 3600 segundos/hora + "+minutos+" minutos x 60 segundos/minuto + "+segundos+" segundos ="+totalSegundos+" segundos");
+alert (horas +" horas, "+ minutos+ " minutos,"+segundos+" segundos   =   "+horas+" horas x 3600 segundos/hora + "+minutos+" minutos x 60 segundos/minuto + "+segundos+" segundos ="+totalSegundos+" segundos");
 
 // Usuario ingresa si le gustó la aplicación y lo guarda en la variable encuesta
 let encuesta = prompt("Le gustó la aplicación(S/N?");
